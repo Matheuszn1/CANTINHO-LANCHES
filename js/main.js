@@ -1,5 +1,5 @@
 /* =========================================================
-   Cantinho Lanches e Jantas — interações da página inicial
+   Cantinho Ponte de Baixo — interações da página inicial
    ========================================================= */
 (function () {
   "use strict";
@@ -76,7 +76,7 @@
     if (!mapa || mapa.querySelector("iframe")) return;
     var iframe = document.createElement("iframe");
     iframe.src = mapa.getAttribute("data-src");
-    iframe.title = "Mapa: Cantinho Lanches e Jantas, R. Bruno Mallmann, 6000, Ponta de Baixo, São José - SC";
+    iframe.title = "Mapa: Cantinho Ponte de Baixo, R. Bruno Mallmann, 6000, Ponta de Baixo, São José - SC";
     iframe.loading = "lazy";
     iframe.referrerPolicy = "no-referrer-when-downgrade";
     iframe.allowFullscreen = true;
